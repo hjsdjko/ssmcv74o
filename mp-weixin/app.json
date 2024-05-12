@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/gongyuxinxi/list",
+    "pages/gongyuxinxi/add-or-update",
+    "pages/gongyuxinxi/detail",
+    "pages/gongyuxuanze/list",
+    "pages/gongyuxuanze/add-or-update",
+    "pages/gongyuxuanze/detail",
+    "pages/dianfeichongzhi/list",
+    "pages/dianfeichongzhi/add-or-update",
+    "pages/dianfeichongzhi/detail",
+    "pages/dianliangxinxi/list",
+    "pages/dianliangxinxi/add-or-update",
+    "pages/dianliangxinxi/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/pay-confirm/pay-confirm",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "学生购电小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#BDDFE5",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gongyuxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "公寓信息"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "公告信息"
+      },
+      {
+        "pagePath": "pages/messages/list",
+        "iconPath": "static/tabs/message.png",
+        "selectedIconPath": "static/tabs/message_act.png",
+        "text": "意见反馈"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
